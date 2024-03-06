@@ -40,8 +40,6 @@ private:
     // NOTE: The lock supports only two threads
     std::atomic_bool m_flag[2];
     std::atomic_bool m_turn;
-    // bool m_flag[2];
-    // bool m_turn;
 
 public:
     user_lock_dekker();
